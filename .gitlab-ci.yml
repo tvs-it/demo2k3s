@@ -1,0 +1,7 @@
+include:
+  - project: 'tvs-it/k3sargocd'
+    ref: main
+    file: 'ci-templates/k8s-gitops-deploy.yml'
+
+variables:
+  APP_NAME: "hello-world"
